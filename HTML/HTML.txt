@@ -1,0 +1,64 @@
+HTML
+———————————————————————————————
+H-01
+HTML Skeleton
+Snippet Trigger: skel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${1:Page Title}</title>
+  <link href="css/${2:style.css}" rel="stylesheet" type="text/css">
+</head>
+<body>
+   $3
+</body>
+</html>
+
+———————————————————————————————-
+
+H-02
+HTML Anchor
+Snippet Trigger: a
+
+<a href=“$1">$2</a>$3
+
+————————————————————————————————
+
+H-03
+HTML Anchor Link and Target
+Snippet Trigger: jump
+
+<a href=“#${1:NAME}”>$2</a>
+<a name=“${1:NAME}”></a>$3
+
+————————————————————————————————
+
+H-04
+HTML Comment
+Snippet Trigger: com
+
+<!-- $1 -->$2
+
+———————————————————————————————-
+
+H-05
+HTML Img
+Snippet Trigger: img
+
+<img src="$1" alt="$2">$3
+
+_________________________________
+
+H-06
+HTML List
+Snippet Trigger: list
+
+<ul>
+    <li>$1</li>
+    <li>$1</li>
+    <li>$1</li>
+</ul>
+$2
