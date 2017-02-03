@@ -16,7 +16,33 @@
 	}
 */
 // All User Snipppets Go Below
+// This file is a json file. The quotes need the "\" character before any " to treat it as code rather than a value.
+// The "\t" represents a Tab,
 // ===========================
+"html5": {
+  "prefix": "skel",
+  "body": [
+		"<!DOCTYPE html>",
+		"<html lang=\"$1en\">",
+		"\t<head>",
+		"\t\t<title>${2:Browser Tab Title}</title>",
+		"\t\t<meta charset=\"UTF-8\">",
+		"\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+		"\t\t<link href=\"${3:css/style.css}\" rel=\"stylesheet\">",
+		"\t</head>",
+		"\t<body>",
+		"\t$0",
+		"\t</body>",
+		"</html>"
+    ],
+  "description": "HTML Skeleton Code"
+},
+"br": {
+  "prefix": "br",
+  "body": "<br>",
+  "description": "HTML - Line break"
+},
+
 "HTML Comment": {
 	"prefix": "com",
 	"body": [
