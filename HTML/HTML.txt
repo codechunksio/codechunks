@@ -31,7 +31,7 @@ H-03
 HTML Email Link
 Snippet Trigger: elink
 
-<a href="mailto:${1:someone@yoursite.com}?subject=${2:Subject Line of Email}">Email Us</a>
+<a href="mailto:${1:someone@yoursite.com}?subject=${2:Subject Line of Email}">${3:Email Us}</a>$4
 
 ————————————————————————————————
 
@@ -48,7 +48,7 @@ H-05
 HTML Comment
 Snippet Trigger: com
 
-<!-- $1 -->$3
+<!-- $1 -->$2
 
 ———————————————————————————————-
 
@@ -66,10 +66,10 @@ Snippet Trigger: list
 
 <ul>
     <li>$1</li>
-    <li>$1</li>
-    <li>$1</li>
+    <li>$2</li>
+    <li>$3</li>
 </ul>
-$3
+$4
 
 ___________________________________
 
@@ -85,6 +85,6 @@ H-09
 HTML Script Tag
 Snippet Trigger: scr
 
-<script src="$1"></script>
+<script src="$1"></script>$2
 
 ___________________________________
