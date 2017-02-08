@@ -77,7 +77,7 @@ H-08
 HTML Line Break
 Snippet Trigger: br
 
-<br>
+<br>$1
 
 ___________________________________
 
