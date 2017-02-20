@@ -53,6 +53,14 @@ Snippet Trigger: com
 ———————————————————————————————-
 
 H-06
+HTML End Tag Comment
+Snippet Trigger: ecom
+
+<!-- /.$1 -->$2
+
+———————————————————————————————-
+
+H-07
 HTML Img
 Snippet Trigger: img
 
@@ -60,7 +68,7 @@ Snippet Trigger: img
 
 _________________________________
 
-H-07
+H-08
 HTML List
 Snippet Trigger: list
 
@@ -73,7 +81,7 @@ $4
 
 ___________________________________
 
-H-08
+H-09
 HTML Line Break
 Snippet Trigger: br
 
@@ -81,7 +89,7 @@ Snippet Trigger: br
 
 ___________________________________
 
-H-09
+H-010
 HTML Script Tag
 Snippet Trigger: scr
 
