@@ -147,3 +147,25 @@ Snippet Trigger: ichec
 
 <input type="checkbox" name="$1" value="$2" id="$3">$4
 ___________________________________
+
+H-018
+HTML Form Select 
+Snippet Trigger: sel
+
+<select name="$1" id="$2">$3</select>$4
+___________________________________
+
+H-019
+HTML Form Option Group
+Snippet Trigger: optg
+
+<optgroup label="$1">$2</optgroup>$3
+___________________________________
+
+H-020
+HTML Form Option 
+Snippet Trigger: opt
+
+<option>$1</option>$2
+___________________________________
+
