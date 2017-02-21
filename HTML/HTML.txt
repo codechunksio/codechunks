@@ -105,3 +105,17 @@ Snippet Trigger: form
 $4
 </form>
 ___________________________________
+
+H-012
+HTML Form Input Text
+Snippet Trigger: itxt
+
+<input placeholder="$1" type="text" name="$2">$3
+___________________________________
+
+H-012
+HTML Form Textarea
+Snippet Trigger: txta
+
+<textarea rows="$1" cols="$2" placeholder="$3">$4
+___________________________________
