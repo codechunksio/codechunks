@@ -96,3 +96,12 @@ Snippet Trigger: scr
 <script src="$1"></script>$2
 
 ___________________________________
+
+H-011
+HTML Form Tag
+Snippet Trigger: form
+
+<form action="$1" id="$2" method="$3">
+$4
+</form>
+___________________________________
