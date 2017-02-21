@@ -101,7 +101,7 @@ H-011
 HTML Form Tag
 Snippet Trigger: form
 
-<form action="$1" id="$2" method="$3">
+<form action="$1" id="$2" method="${3:GET|POST}">
 $4
 </form>
 ___________________________________
