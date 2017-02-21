@@ -113,9 +113,23 @@ Snippet Trigger: itxt
 <input placeholder="$1" type="text" name="$2">$3
 ___________________________________
 
-H-012
+H-013
 HTML Form Textarea
 Snippet Trigger: txta
 
 <textarea rows="$1" cols="$2" placeholder="$3">$4
+___________________________________
+
+H-014
+HTML Form Input Password 
+Snippet Trigger: ipass
+
+<input type="password" name="$1" id="$2">$3
+___________________________________
+
+H-015
+HTML Form Label 
+Snippet Trigger: labl
+
+<label for="$1">$2</label>$3
 ___________________________________
