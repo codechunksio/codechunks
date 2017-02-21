@@ -133,3 +133,17 @@ Snippet Trigger: labl
 
 <label for="$1">$2</label>$3
 ___________________________________
+
+H-016
+HTML Form Input Radio 
+Snippet Trigger: irad
+
+<input type="radio" name="$1" value="$2" id="$3">$4
+___________________________________
+
+H-017
+HTML Form Input Checkbox 
+Snippet Trigger: ichec
+
+<input type="checkbox" name="$1" value="$2" id="$3">$4
+___________________________________
