@@ -226,17 +226,24 @@ Snippet Trigger: br
 <br>$1
 ___________________________________
 
-H-027
+H-028
 HTML Header
 Snippet Trigger: hdr
 
 <header>$1</header>$2
 ___________________________________
 
-H-027
+H-029
 HTML Footer
 Snippet Trigger: ftr
 
 <footer>$1</footer>$2
+___________________________________
+
+H-030
+HTML Iframe
+Snippet Trigger: ifr
+
+<iframe src="${1:url} width="$2" height="$3">$1</iframe>$4
 ___________________________________
 
