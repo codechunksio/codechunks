@@ -299,3 +299,17 @@ Snippet Trigger: tabl
 <table>$1</table>$2 
 ___________________________________
 
+H-037
+HTML Table Row
+Snippet Trigger: tr
+
+<tr>$1</tr>$2 
+___________________________________
+
+H-038
+HTML Table Data
+Snippet Trigger: td
+
+<td>$1</td>$2 
+___________________________________
+
