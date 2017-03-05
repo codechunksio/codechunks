@@ -247,3 +247,10 @@ Snippet Trigger: ifr
 <iframe src="${1:url} width="$2" height="$3">$1</iframe>$4
 ___________________________________
 
+H-031
+HTML Link Stylesheet
+Snippet Trigger: link
+
+<link href="$1" rel="stylesheet"> 
+___________________________________
+
