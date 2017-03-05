@@ -261,3 +261,10 @@ Snippet Trigger: nav
 <nav>$1</nav>$2 
 ___________________________________
 
+H-032
+HTML Span
+Snippet Trigger: span
+
+<span>$1</span>$2 
+___________________________________
+
