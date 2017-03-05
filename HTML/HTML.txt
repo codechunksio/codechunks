@@ -219,3 +219,10 @@ Snippet Trigger: leg
 <legend align="$1">$2</legend>$3
 ___________________________________
 
+H-027
+HTML Break
+Snippet Trigger: br
+
+<br>$1
+___________________________________
+
