@@ -254,3 +254,10 @@ Snippet Trigger: link
 <link href="$1" rel="stylesheet"> 
 ___________________________________
 
+H-032
+HTML Nav
+Snippet Trigger: nav
+
+<nav>$1</nav>$2 
+___________________________________
+
