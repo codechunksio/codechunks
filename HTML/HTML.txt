@@ -261,17 +261,34 @@ Snippet Trigger: nav
 <nav>$1</nav>$2 
 ___________________________________
 
-H-032
+H-033
 HTML Span
 Snippet Trigger: span
 
 <span>$1</span>$2 
 ___________________________________
 
-H-032
+H-034
 HTML Title
 Snippet Trigger: title
 
 <title>$1</title>$2 
+___________________________________
+
+H-035
+HTML Simple Table
+Snippet Trigger: stabl
+
+<table>
+  <tr>
+    <td>$1</td>
+    <td>$2</td>
+  </tr>
+  <tr>
+    <td>$3</td>
+    <td>$4</td>
+  </tr>
+</table>
+$5
 ___________________________________
 
