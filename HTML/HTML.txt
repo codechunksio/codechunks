@@ -268,3 +268,10 @@ Snippet Trigger: span
 <span>$1</span>$2 
 ___________________________________
 
+H-032
+HTML Title
+Snippet Trigger: title
+
+<title>$1</title>$2 
+___________________________________
+
