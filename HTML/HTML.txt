@@ -17,17 +17,9 @@ Snippet Trigger: skel
 </body>
 </html>
 
-———————————————————————————————-
-
-H-02
-HTML Anchor
-Snippet Trigger: a
-
-<a href=“$1">$2</a>$3
-
 ————————————————————————————————
 
-H-03
+H-02
 HTML Email Link
 Snippet Trigger: elink
 
@@ -35,15 +27,7 @@ Snippet Trigger: elink
 
 ————————————————————————————————
 
-H-04
-HTML Paragraph
-Snippet Trigger: p
-
-<p>$1</p>$2
-
-————————————————————————————————
-
-H-05
+H-03
 HTML Anchor Link and Target
 Snippet Trigger: jump
 
@@ -52,7 +36,7 @@ Snippet Trigger: jump
 
 ————————————————————————————————
 
-H-06
+H-04
 HTML Comment
 Snippet Trigger: com
 
@@ -60,7 +44,7 @@ Snippet Trigger: com
 
 ———————————————————————————————-
 
-H-07
+H-05
 HTML End Tag Comment
 Snippet Trigger: tcom
 
@@ -68,49 +52,7 @@ Snippet Trigger: tcom
 
 ———————————————————————————————-
 
-H-08
-HTML Img
-Snippet Trigger: img
-
-<img src="$1" alt="$2">$3
-
-_________________________________
-
-H-09
-HTML Unordered List
-Snippet Trigger: ulist
-
-<ul>
-    <li>$1</li>
-    <li>$2</li>
-    <li>$3</li>
-</ul>
-$4
-
-___________________________________
-
-H-10
-HTML Ordered List
-Snippet Trigger: olist
-
-<ul>
-    <li>$1</li>
-    <li>$2</li>
-    <li>$3</li>
-</ul>
-$4
-___________________________________
-
-
-H-11
-HTML Line Break
-Snippet Trigger: br
-
-<br>$1
-
-___________________________________
-
-H-012
+H-06
 HTML Script Tag
 Snippet Trigger: scr
 
@@ -118,7 +60,7 @@ Snippet Trigger: scr
 
 ___________________________________
 
-H-013
+H-07
 HTML Strong Tag
 Snippet Trigger: str
 
@@ -126,7 +68,7 @@ Snippet Trigger: str
 
 ___________________________________
 
-H-014
+H-08
 HTML Form Tag
 Snippet Trigger: form
 
@@ -135,147 +77,112 @@ $4
 </form>
 ___________________________________
 
-H-015
+H-09
 HTML Form Input Text
 Snippet Trigger: itxt
 
 <input placeholder="$1" type="text" name="$2">$3
 ___________________________________
 
-H-016
+H-010
 HTML Form Textarea
 Snippet Trigger: txta
 
 <textarea rows="$1" cols="$2" placeholder="$3">$4
 ___________________________________
 
-H-017
+H-011
 HTML Form Input Password 
 Snippet Trigger: ipass
 
 <input type="password" name="$1" id="$2">$3
 ___________________________________
 
-H-018
+H-012
 HTML Form Label 
 Snippet Trigger: labl
 
 <label for="$1">$2</label>$3
 ___________________________________
 
-H-019
+H-013
 HTML Form Input Radio 
 Snippet Trigger: irad
 
 <input type="radio" name="$1" value="$2" id="$3">$4
 ___________________________________
 
-H-020
+H-014
 HTML Form Input Checkbox 
 Snippet Trigger: ichec
 
 <input type="checkbox" name="$1" value="$2" id="$3">$4
 ___________________________________
 
-H-021
+H-015
 HTML Form Input Submit 
 Snippet Trigger: isub
 
 <input type="submit" value="$2">$3
 ___________________________________
 
-H-022
+H-016
 HTML Form Select 
 Snippet Trigger: sel
 
 <select name="$1" id="$2">$3</select>$4
 ___________________________________
 
-H-023
+H-017
 HTML Form Select Multiple 
 Snippet Trigger: selm
 
 <select multiple="multiple" name="$1" id="$2">$3</select>$4
 ___________________________________
 
-H-024
+H-018
 HTML Form Option Group
 Snippet Trigger: optg
 
 <optgroup label="$1">$2</optgroup>$3
 ___________________________________
 
-H-025
+H-019
 HTML Form Fieldset
 Snippet Trigger: fields
 
 <fieldset>$1</fieldset>$2
 ___________________________________
 
-H-026
+H-020
 HTML Form Legend
 Snippet Trigger: leg
 
 <legend align="$1">$2</legend>$3
 ___________________________________
 
-H-027
-HTML Break
-Snippet Trigger: br
-
-<br>$1
-___________________________________
-
-H-028
+H-021
 HTML Header
 Snippet Trigger: hdr
 
 <header>$1</header>$2
 ___________________________________
 
-H-029
+H-022
 HTML Footer
 Snippet Trigger: ftr
 
 <footer>$1</footer>$2
 ___________________________________
 
-H-030
+H-023
 HTML Iframe
 Snippet Trigger: ifr
 
 <iframe src="${1:url} width="$2" height="$3">$1</iframe>$4
 ___________________________________
 
-H-031
-HTML Link Stylesheet
-Snippet Trigger: link
-
-<link href="$1" rel="stylesheet"> 
-___________________________________
-
-H-032
-HTML Nav
-Snippet Trigger: nav
-
-<nav>$1</nav>$2 
-___________________________________
-
-H-033
-HTML Span
-Snippet Trigger: span
-
-<span>$1</span>$2 
-___________________________________
-
-H-034
-HTML Title
-Snippet Trigger: title
-
-<title>$1</title>$2 
-___________________________________
-
-H-035
+H-024
 HTML Simple Table
 Snippet Trigger: stabl
 
@@ -290,26 +197,5 @@ Snippet Trigger: stabl
   </tr>
 </table>
 $5
-___________________________________
-
-H-036
-HTML Table
-Snippet Trigger: tabl
-
-<table>$1</table>$2 
-___________________________________
-
-H-037
-HTML Table Row
-Snippet Trigger: tr
-
-<tr>$1</tr>$2 
-___________________________________
-
-H-038
-HTML Table Data
-Snippet Trigger: td
-
-<td>$1</td>$2 
 ___________________________________
 
